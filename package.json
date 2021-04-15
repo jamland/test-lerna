@@ -1,0 +1,16 @@
+{
+  "name": "test-lerna",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "lerna run test",
+    "version": "lerna version --conventional-commits --yes",
+    "diff": "lerna diff"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}
